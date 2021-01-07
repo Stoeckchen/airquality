@@ -14,4 +14,5 @@ while True:
     print("Relative Luftfeuchtigkeit: ", bme680.relative_humidity, "%")
     print ("Luftdruck: ", bme680.pressure, "hPa")
     print ("Höhe: ", bme680.altitude, "m")
+    print(" - - - -")
     time.sleep(60)
